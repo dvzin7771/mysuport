@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MY Suporte - Soluções em Tecnologia</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      background-color: #f5f7fa;
+      color: #333;
+    }
+    header {
+      background-color: #003366;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5em;
+    }
+    header p {
+      font-size: 1.2em;
+      margin: 10px 0 20px;
+    }
+    header a {
+      background-color: #ff9900;
+      padding: 10px 20px;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+    }
+    .section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .card {
+      flex: 1 1 calc(33% - 20px);
+      background-color: white;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .card h3 {
+      color: #003366;
+    }
+    .about {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .contact {
+      background-color: #003366;
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    .contact a {
+      color: #ffcc00;
+      text-decoration: none;
+    }
+    @media (max-width: 768px) {
+      .card {
+        flex: 1 1 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>MY Suporte</h1>
+    <p>Conecte sua empresa com soluções de TI inovadoras</p>
+    <a href="#contato">Fale Conosco</a>
+  </header>
+
+  <section class="section">
+    <h2>Soluções em TI</h2>
+    <p>Tudo o que sua empresa necessita para a transformação digital está aqui.</p>
+    <div class="cards">
+      <div class="card">
+        <h3>🔧 Suporte Técnico</h3>
+        <p>Assistência para resolver problemas técnicos, desde falhas de hardware até software.</p>
+      </div>
+      <div class="card">
+        <h3>🔐 Segurança da Informação</h3>
+        <p>Protegemos dados sensíveis contra ameaças cibernéticas com soluções robustas.</p>
+      </div>
+      <div class="card">
+        <h3>☁️ Backup e Recuperação</h3>
+        <p>Backup em nuvem para garantir segurança e recuperação dos dados.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Sobre Nós</h2>
+    <div class="about">
+      <p>A MY Suporte Soluções em Tecnologia atua há mais de 3 anos no suporte técnico empresarial em todo o Brasil. Contamos com especialistas em consultoria, redes, automação comercial e cabeamento estruturado. Nossa missão é garantir o melhor da tecnologia para o crescimento dos nossos clientes.</p>
+    </div>
+  </section>
+
+  <section class="contact" id="contato">
+    <h2>Entre em Contato</h2>
+    <p>📞 <a href="tel:+5531971149078">(31) 97114-9078</a></p>
+    <p>📧 <a href="mailto:contato@mysuporte.com.br">contato@mysuporte.com.br</a></p>
+    <p>📱 <a href="https://wa.me/5531971149078">Fale no WhatsApp</a></p>
+  </section>
+</body>
+</html>
